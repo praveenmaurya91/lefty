@@ -1,0 +1,20 @@
+{
+  "name": "lefty",
+  "version": "1.0.0",
+  "description": "lefty electron app",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "postinstall": "electron-rebuild -v 0.36.5 --force -m . -w node-hid"
+  },
+  "author": "Praveen",
+  "license": "MIT",
+  "dependencies": {
+    "electron": "^2.0.4",
+    "node-hid": "^0.7.3",
+    "electron-rebuild": "^1.8.1"
+  },
+  "devDependencies": {
+    
+  }
+}
